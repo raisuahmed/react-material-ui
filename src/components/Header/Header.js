@@ -25,8 +25,9 @@ const Header = () => {
 	const classes = useStyles();
 
 	return (
+		<div >
 		<AppBar position="absolute">
-			<Toolbar style ={{backgroundColor:"yellow",textDecoration:'none'}}>
+			<Toolbar style ={{backgroundColor:"yellow"}}>
 				<Grid container alignItems="center">
 					<Grid item className={classes.alignCenter}>
 						<IconButton>
@@ -61,6 +62,7 @@ const Header = () => {
 				</Grid>
 			</Toolbar>
 		</AppBar>
+		</div>
 	);
 };
 
