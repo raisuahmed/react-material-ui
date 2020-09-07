@@ -24,14 +24,14 @@ const Post = (props) => {
 					<CardMedia
 						className={classes.media}
 						image={`https://picsum.photos/id/${22 + id}/1281/730`}
-						title="alt text"
+						title=""
 					/>
 				</Link>
 				<CardContent>
-					<Typography variant="h6" component="h5">
+					<Typography variant="h5" component="h4">
 						{title}
 					</Typography>
-					<Typography variant="body2" component="p" >
+					<Typography variant="body2" component="p"style ={{color:"blue"}} >
 						{body}
 					</Typography>
 				</CardContent>

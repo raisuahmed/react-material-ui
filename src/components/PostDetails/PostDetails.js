@@ -4,7 +4,7 @@ import {useParams} from "react-router-dom";
 import CommentList from "../CommentList/CommentList";
 
 const PostDetails = () => {
-	// Find post using url parameter
+	//  post using url parameter
 	const {postId} = useParams();
 
 	const [details, setDetails] = useState([]);

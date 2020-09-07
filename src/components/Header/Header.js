@@ -1,5 +1,4 @@
 import React from "react";
-
 import NotificationsActiveIcon from "@material-ui/icons/NotificationsActive";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 import { Toolbar, AppBar, Grid, IconButton, makeStyles, Badge, Typography } from "@material-ui/core";
@@ -45,15 +44,18 @@ const Header = () => {
 					<Grid item sm></Grid>
 					<Grid item>
 						<IconButton>
-							<Badge color="primary" badgeContent={1}>
+							<Badge color="primary" badgeContent={10}>
 								<NotificationsActiveIcon />
 							</Badge>
 						</IconButton>
 						<IconButton>
 							<ChatIcon />
+                            <Badge color="primary" badgeContent={2}></Badge>
 						</IconButton>
 						<IconButton>
+                        
 							<AccountCircleIcon />
+                           
 						</IconButton>
 					</Grid>
 				</Grid>

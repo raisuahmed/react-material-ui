@@ -4,7 +4,7 @@ import {Container, Box, makeStyles} from "@material-ui/core";
 
 
 const Body = () => {
-	// Fetch post and store it on state
+	//  post and store it on state
 	const [posts, setPosts] = useState([]);
 	useEffect(() => {
 		const url = "https://jsonplaceholder.typicode.com/posts/";
